@@ -3,6 +3,8 @@ import Layout from '../components/Layout';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const HomeWrapper = styled.div`
   color: white;
@@ -37,6 +39,12 @@ const IndexPage = () => {
           <h2>Hello, I'm Gonzalo</h2>
           <p>a Full Stack Developer</p>
           <p>based in Buenos Aires, Argentina.</p>
+          <p>I'm currently working on this site, but you can reach me on{' '}
+            <a href='https://www.linkedin.com/in/gonzalotorrestz/?locale=en_US' target='_blank' rel='noreferrer'>
+              LinkedIn <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+            </a>{' '}
+          if you want to talk.
+          </p>
           <p>
             <StyledLinks to='/projects'>My work</StyledLinks> • <StyledLinks to='/contact'>Contact me</StyledLinks>
           </p>

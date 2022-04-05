@@ -32,7 +32,7 @@ const ContactPage = () => {
             <a href='https://www.linkedin.com/in/gonzalotorrestz/?locale=en_US' target='_blank' rel='noreferrer'>
               LinkedIn <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
             </a>{' '}
-            if you need to contact me.
+            .
           </p>
         </HomeInner>
       </HomeWrapper>
